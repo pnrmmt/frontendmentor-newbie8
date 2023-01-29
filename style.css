@@ -59,6 +59,7 @@ p{
 .vflex{
     
     margin-top: 60px;
+    font-size: 1em;
     
 }
 span{
@@ -74,9 +75,15 @@ h2{
 }
 .num{
     font-weight: 700;
+    color:hsl(229, 23%, 23%);
 }
 
 footer{
     position: fixed;
     bottom: 0;
+}
+
+h1{
+    font-size: 1.3em;
+    color:hsl(229, 23%, 23%);
 }
