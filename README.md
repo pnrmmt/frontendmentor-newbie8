@@ -38,6 +38,6 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 
 ## Author
-- Frontend Mentor - [@pnrmmt](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@pnrmmt](https://www.frontendmentor.io/profile/pnrmmt)
 
 
