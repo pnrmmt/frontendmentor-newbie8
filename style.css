@@ -70,12 +70,11 @@ span{
 .word{
     margin-top: 8px;
 }
-h2{
-    font-weight: 700;
-}
+
 .num{
     font-weight: 700;
     color:hsl(229, 23%, 23%);
+    font-size: 1.1em;
 }
 
 footer{
