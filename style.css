@@ -1,0 +1,82 @@
+/* font-family: 'Kumbh Sans', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 50vw bottom 50vh, left 50vw top 50vh ;
+    background-color: hsl(185, 75%, 39%);
+    text-align: center;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 1em;
+    
+}
+.container{
+    
+    background-color:  white;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    border-top: 1px solid hsl(0, 4%, 86%);
+}
+
+p, span, .word{
+    color: hsl(0, 0%, 59%);
+}
+p{
+    
+    margin-top: 10px;
+    margin-bottom: 30px;
+    
+}
+.victor{
+    border-radius: 50%;
+    border:5px solid white;
+    position: absolute;
+    top:80px;
+    right: 120px;
+    /* display: block da ekleyebilirsin.  */
+    
+    
+
+}
+.vflex{
+    
+    margin-top: 60px;
+    
+}
+span{
+    font-weight: 400;
+    margin-left: 7px;
+    font-size: 0.7em;
+}
+.word{
+    margin-top: 8px;
+}
+h2{
+    font-weight: 700;
+}
+.num{
+    font-weight: 700;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+}
